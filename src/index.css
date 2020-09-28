@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.border-bottomed-tab{
+  border: 1px solid #dee2e6;
+}
+
+.border-bottomed-tab .nav-link.active {
+  border-color: #ffffff #ffffff #000000 #ffffff!important;
+  border-bottom: 2px solid black;
+  color: black;
+  font-weight: 500;
+}
+
+.border-bottomed-tab .nav-link:not(.active) {
+  border-color: transparent !important;
+  color: #888888;
+  font-weight: 500;
+}
+.border-bottomed-tab .nav-link:focus{
+  outline: none;
+}
+
+.border-bottomed-tab .nav-link{
+  padding: 16px;
+}
+
+
+.date-range-text{
+  font-weight: 500;
+}
+
+.trendBadge span{
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(39,120,80);
+}
+
+.trendBadge.up{
+  background-color: rgb(210,238,224);
+}
+
+.trendBadge.up span{
+  color: rgb(39,120,80);
+}
+
+.trendBadge.down{
+  background-color: rgb(253,222,222);
+}
+
+.trendBadge.down span{
+  color: rgb(220,55,51);
+}

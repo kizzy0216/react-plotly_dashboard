@@ -10,7 +10,7 @@ import yesterdayData from './SampleRestaurantData_Yesterday';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCaretUp, faCaretDown } from '@fortawesome/free-solid-svg-icons'
 
-// import { faCaret } from '@fortawesome/free-solid-svg-icons'
+// import { faCaret } from "@fortawesome/free-solid-svg-icons"
 
 const Plotly = window.Plotly;
 const Plot = createPlotlyComponent(Plotly);

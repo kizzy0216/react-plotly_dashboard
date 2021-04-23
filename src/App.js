@@ -82,8 +82,8 @@ function App() {
         else if(dataRangeIndex === 2){
             const mondayIndex = moment().day() === 0 ? -6 : 1;
             // curBorderDate = moment().subtract(1, 'weeks').day(mondayIndex);
-            curBorderDate = moment().subtract(11, 'weeks').day(mondayIndex).format('YYYY-MM-DD');
-            lastBorderDate = moment().subtract(23, 'weeks').day(mondayIndex).format('YYYY-MM-DD');
+            // curBorderDate = moment().subtract(11, 'weeks').day(mondayIndex).format('YYYY-MM-DD');
+            // lastBorderDate = moment().subtract(23, 'weeks').day(mondayIndex).format('YYYY-MM-DD');
         }
         else if(dataRangeIndex === 1){
             curBorderDate = moment().subtract(7, 'days').add(1, 'days').format('YYYY-MM-DD');

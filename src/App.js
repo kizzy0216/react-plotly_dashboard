@@ -93,7 +93,7 @@ function App() {
             curBorderDate = moment().subtract(1, 'days').format('YYYY-MM-DD') + ' 00:00:00';
             // curBorderDate = moment().set({hour:0,minute:0,second:0,millisecond:0}).format('YYYY-MM-DD');
             lastBorderDate = moment().subtract(8, 'days').format('YYYY-MM-DD') + ' 00:00:00';
-            // lastBorderDate = "2020-09-01";
+            // lastBorderDate = "2021-05-03";
         }
         let tmpDate;
         let tmpCurDataTotal = 0, tmpLastDataTotal = 0;

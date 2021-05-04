@@ -211,7 +211,6 @@ function App() {
             else if(dataRangeIndex === 3)
                 iDate = moment(iDate).add(1, 'months').format('YYYY-MM-DD');
         }
-        console.log('tmp_curObjs', tmp_curObjs);
         let orderedCurDates = {}, orderedLastDates = {};
         Object.keys(tmp_curObjs).sort(function(a, b) {
             return moment(a, 'YYYY-MM-DD HH:mm:ss').toDate() - moment(b, 'YYYY-MM-DD HH:mm:ss').toDate();

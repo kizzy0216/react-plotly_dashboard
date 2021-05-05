@@ -180,7 +180,7 @@ function App() {
                 }
             }
         }
-        console.log('tmp_curDates', tmp_curDates);
+        console.log('tmp_curDatess', tmp_curDates);
         console.log('tmp_curObjs', tmp_curObjs);
         // for(let iDate = curBorderDate; moment(iDate).isAfter(moment()) === false;iDate = moment(iDate).add(7200000).format('YYYY-MM-DD HH:mm:ss')){
         const nextDayZero = dataRangeIndex === 0 ? moment().set({hour:0,minute:0,second:0,millisecond:0}) : moment().set({hour:23,minute:59,second:59,millisecond:0});

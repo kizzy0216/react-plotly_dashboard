@@ -200,7 +200,7 @@ function App() {
                 else
                     tmp_lastObjs[moment(iDate).format('YYYY-MM-DD')] = 0;
             }
-            // iDate = moment(iDate).add(86400000).format('YYYY-MM-DD HH:mm:ss');
+            // iDate = moment(iDate).add(86400000).format('YYYY-MM-DD HH:mm:ss')
 
             if(dataRangeIndex === 0)
                 iDate = moment(iDate).add(7200000).format('YYYY-MM-DD HH:mm:ss');

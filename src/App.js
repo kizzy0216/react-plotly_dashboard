@@ -63,7 +63,7 @@ function App() {
             tmpData += data["Ticket Size"] * 100;
         else if(activeTabKey === 3)
             tmpData += flag ? 10000 : data["Gift Card Sales"] * 100;
-        else if(activeTabKey === 4) // Gift Card Volume case
+        else if(activeTabKey === 4)
             tmpData += data["Gift Card Volume"] * 100;
         else if(activeTabKey === 5) // Gift Card Size add
             tmpData += data["Gift Card Size"] * 100;

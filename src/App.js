@@ -58,7 +58,7 @@ function App() {
         if(activeTabKey === 0) //
             tmpData += data["Ticket Sales"] * 100;
         else if(activeTabKey === 1) //
-            tmpData += data["Ticket Order Volume"] * 100;
+            tmpData += data["Ticket Order Volume"] * 100; //
         else if(activeTabKey === 2)
             tmpData += data["Ticket Size"] * 100;
         else if(activeTabKey === 3)

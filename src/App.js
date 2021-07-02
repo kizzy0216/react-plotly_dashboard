@@ -57,7 +57,7 @@ function App() {
     const calcTmpData = (data, flag) =>{
         if(activeTabKey === 0) //
             tmpData += data["Ticket Sales"] * 100;
-        else if(activeTabKey === 1)
+        else if(activeTabKey === 1) //
             tmpData += data["Ticket Order Volume"] * 100;
         else if(activeTabKey === 2)
             tmpData += data["Ticket Size"] * 100;

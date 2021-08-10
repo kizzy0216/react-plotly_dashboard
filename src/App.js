@@ -55,7 +55,7 @@ function App() {
         tmpDataTotal.gift_card_size += data["Gift Card Size"] * 100;
     };
     const calcTmpData = (data, flag) =>{
-        if(activeTabKey === 0)
+        if(activeTabKey === 0) //
             tmpData += data["Ticket Sales"] * 100;
         else if(activeTabKey === 1)
             tmpData += data["Ticket Order Volume"] * 100;

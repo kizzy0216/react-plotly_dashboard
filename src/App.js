@@ -65,7 +65,7 @@ function App() {
             tmpData += flag ? 10000 : data["Gift Card Sales"] * 100;
         else if(activeTabKey === 4) //
             tmpData += data["Gift Card Volume"] * 100;
-        else if(activeTabKey === 5)
+        else if(activeTabKey === 5) //
             tmpData += data["Gift Card Size"] * 100;
     };
     useEffect(() => {
